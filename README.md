@@ -1,4 +1,4 @@
-# Quick Translate
+# Quick Translate(v1.0)
 ## Built with
 * AHK
 * libretranslate
