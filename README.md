@@ -30,12 +30,6 @@ python3 main.pyw
 Default settings:
 * Output Language: English
 * Run Shortcut: Ctrl+Q
-```json
-{
-    "lang": "en",
-    "key": "q"
-}
-```
 * For change the settings open the config.json file in the project directory
 it should be like:
 ```json
