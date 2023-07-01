@@ -1,5 +1,7 @@
-# Quick Translate
-## Built with
+# Quick Translate(v1.0)
+### About The Project
+A python app that translates texts by opening popups
+### Built with
 * AHK
 * libretranslate
 
@@ -17,7 +19,22 @@ cd quick-translate
 ```sh
 pip install -r requirements.txt
 ```
+### Configuration-Settings
+Default settings:
+* Output Language: English
+* Run Shortcut: Ctrl+Q
+* For change the settings open the config.json file in the project directory
+it should be like:
+```json
+{
+    "lang": "en",
+    "key": "q"
+}
+```
+* For change the output language edit the "lang" item to the acronym of the language desired(default = "en": English)
+* For change the shortcut key change the "key" item to the key desired(the shortcut will be Ctrl+&lt;choosen key&gt;)(default = "q": Q)
 ### Run
+#### Activate quick-translate
 * Windows
 ```sh
 python main.pyw
@@ -26,23 +43,9 @@ python main.pyw
 ```sh
 python3 main.pyw
 ```
-### Configuration-Settings
-Default settings:
-* Output Language: English
-* Run Shortcut: Ctrl+Q
-```json
-{
-    "lang": "en",
-    "key": "q"
-}
-```
-* For change the settings open the config.json file in the project directory
-it should be like:
-
-* For change the output language edit the "lang" item to the acronym of the language desired(default = "en": English)
-* For change the shortcut key change the "key" item to the key desired(the shortcut will be Ctrl+&lt;choosen key&gt;)(default = "q": Q)
-
-
+#### Translate
+* For translate a text select it and press the dedicated shortcut(Default: Ctrl+Q)
+* For close the translation popup click it
 
 
 
