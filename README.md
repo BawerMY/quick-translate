@@ -38,7 +38,12 @@ Default settings:
 ```
 * For change the settings open the config.json file in the project directory
 it should be like:
-
+```json
+{
+    "lang": "en",
+    "key": "q"
+}
+```
 * For change the output language edit the "lang" item to the acronym of the language desired(default = "en": English)
 * For change the shortcut key change the "key" item to the key desired(the shortcut will be Ctrl+&lt;choosen key&gt;)(default = "q": Q)
 
