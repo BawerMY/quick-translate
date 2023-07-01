@@ -3,6 +3,7 @@ import pyperclip
 import tkinter as tk
 from translate import Translator
 import json
+import pyautogui
 
 try:
     f = open("config.json", "r")
@@ -34,7 +35,7 @@ def translate(string):
 def show(string):
     root = tk.Tk()
     root.overrideredirect(True)
-    root.geometry(f'+{ahk.mouse_position[0]}+{ahk.mouse_position[1] - 50}')
+    root.geometry(f'+{pyautogui.position()[0]}+{pyautogui.position()[1] - 50}')
     root.attributes("-topmost", True)
 
     # label = tk.Label(root, text=string, font=16)
