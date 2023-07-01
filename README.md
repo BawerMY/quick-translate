@@ -1,5 +1,7 @@
 # Quick Translate(v1.0)
-## Built with
+### About The Project
+A python app that translates texts by opening popups
+### Built with
 * AHK
 * libretranslate
 
@@ -26,6 +28,8 @@ python main.pyw
 ```sh
 python3 main.pyw
 ```
+* For translate a text select it and press the dedicated shortcut(Default: Ctrl+Q)
+* For close the translation popup click it
 ### Configuration-Settings
 Default settings:
 * Output Language: English
