@@ -19,17 +19,6 @@ cd quick-translate
 ```sh
 pip install -r requirements.txt
 ```
-### Run
-* Windows
-```sh
-python main.pyw
-```
-* MacOS & Linux
-```sh
-python3 main.pyw
-```
-* For translate a text select it and press the dedicated shortcut(Default: Ctrl+Q)
-* For close the translation popup click it
 ### Configuration-Settings
 Default settings:
 * Output Language: English
@@ -44,8 +33,19 @@ it should be like:
 ```
 * For change the output language edit the "lang" item to the acronym of the language desired(default = "en": English)
 * For change the shortcut key change the "key" item to the key desired(the shortcut will be Ctrl+&lt;choosen key&gt;)(default = "q": Q)
-
-
+### Run
+#### Activate quick-translate
+* Windows
+```sh
+python main.pyw
+```
+* MacOS & Linux
+```sh
+python3 main.pyw
+```
+#### Translate
+* For translate a text select it and press the dedicated shortcut(Default: Ctrl+Q)
+* For close the translation popup click it
 
 
 
