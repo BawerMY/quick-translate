@@ -1,11 +1,15 @@
 # Quick Translate(v0.2)
-### About The Project
+**[About The Project](#about-the-project)**<br>
+**[Run quick-translate.exe](#run-quick-translate-exe)**<br>
+**[Run With Python](#run-with-python)**<br>
+**[How To Translate](#translate)**<br>
+## About The Project
 A python app that translates texts by opening popups
 ### Built with
 * AHK
 * Libre Translate
 
-## Run quick-translate.exe
+## Run quick translate exe
 * Go to https://github.com/BawerMY/quick-translate/tree/main/exe/
 * Download the prefered version (console-background)
 ### quick-translate(console):
@@ -20,7 +24,7 @@ Enter quick-translate shortcut key(default q):
 ```
 The shortcut will be Ctrl+&lt;choosen key&gt;
 
-Now you can translate text by selecting and press Ctrl+&lt;choosen key&gt;
+[How To Translate](#Translate)
 
 ### Run quick-translate(background).exe
 * Download or create quick-translate(background).config.json
@@ -34,7 +38,7 @@ Now you can translate text by selecting and press Ctrl+&lt;choosen key&gt;
 }
 ```
  Run quick-translate(background).exe
-Now you can translate text by selecting and press Ctrl+&lt;choosen key&gt;
+[How To Translate](#Translate)
 
 ## Run With Python
 ### Download & Install
@@ -52,9 +56,8 @@ pip install -r requirements.txt
 ```
 
 ### Setup & Run
-#### Activate quick-translate
 * Select the prefered version (console-background):
-##### quick-translte(console).py
+#### quick-translte(console).py
 * Run quick-translate(console).py (if the console remains blank press enter on the keyboard)
 * Choose the output language:
 ```
@@ -68,7 +71,7 @@ The shortcut will be Ctrl+&lt;choosen key&gt;
 
 
 
-##### quick-translate(background).pyw
+#### quick-translate(background).pyw
 * Edit quick-translate(background).config.json
 * edit "lang" and "key" fields by your preferences:
 * "lang": output languages acronym(default "en")
@@ -88,7 +91,7 @@ python quick-translate(background).pyw
 ```sh
 python3 quick-translate(background).pyw
 ```
-#### Translate
+## Translate
 * For translate a text select it and press the dedicated shortcut(Default: Ctrl+Q)
 * For close the translation popup click it
 
