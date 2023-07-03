@@ -9,10 +9,10 @@ A python app that translates texts by opening popups
 * AHK
 * Libre Translate
 
-## Run quick translate exe
+## Run quick translate exe (RECOMMENED)
 * Go to https://github.com/BawerMY/quick-translate/tree/main/exe/
 * Download the prefered version (console-background)
-### quick-translate(console):
+### quick-translate(console) (RECOMMENED):
 * Run quick-translate(console).exe (if the console remains blank press enter on the keyboard)
 * Choose the output language:
 ```
