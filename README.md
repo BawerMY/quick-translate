@@ -3,7 +3,7 @@
 A python app that translates texts by opening popups
 ### Built with
 * AHK
-* libretranslate
+* Libre Translate
 
 ## Getting Started
 ### Download & Install
