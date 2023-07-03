@@ -37,11 +37,11 @@ it should be like:
 #### Activate quick-translate
 * Windows
 ```sh
-python main.pyw
+python quick-translate(background).pyw
 ```
 * MacOS & Linux
 ```sh
-python3 main.pyw
+python3 quick-translate(background).pyw
 ```
 #### Translate
 * For translate a text select it and press the dedicated shortcut(Default: Ctrl+Q)
