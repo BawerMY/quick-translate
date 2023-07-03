@@ -24,7 +24,8 @@ Enter quick-translate shortcut key(default q):
 ```
 The shortcut will be Ctrl+&lt;choosen key&gt;
 
-[How To Translate](#Translate)
+* For translate a text select it and press the dedicated shortcut(Default: Ctrl+Q)
+* For close the translation popup click it
 
 ### Run quick-translate(background).exe
 * Download or create quick-translate(background).config.json
@@ -38,7 +39,8 @@ The shortcut will be Ctrl+&lt;choosen key&gt;
 }
 ```
  Run quick-translate(background).exe
-[How To Translate](#Translate)
+* For translate a text select it and press the dedicated shortcut(Default: Ctrl+Q)
+* For close the translation popup click it
 
 ## Run With Python
 ### Download & Install
@@ -70,7 +72,8 @@ Enter quick-translate shortcut key(default q):
 The shortcut will be Ctrl+&lt;choosen key&gt;
 
 
-
+* For translate a text select it and press the dedicated shortcut(Default: Ctrl+Q)
+* For close the translation popup click it
 #### quick-translate(background).pyw
 * Edit quick-translate(background).config.json
 * edit "lang" and "key" fields by your preferences:
@@ -91,6 +94,8 @@ python quick-translate(background).pyw
 ```sh
 python3 quick-translate(background).pyw
 ```
+* For translate a text select it and press the dedicated shortcut(Default: Ctrl+Q)
+* For close the translation popup click it
 ## Translate
 * For translate a text select it and press the dedicated shortcut(Default: Ctrl+Q)
 * For close the translation popup click it
