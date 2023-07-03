@@ -6,11 +6,36 @@ A python app that translates texts by opening popups
 * Libre Translate
 
 ## Run quick-translate.exe
-* Go to https://github.com/BawerMY/quick-translate/tree/main/exe
+* Go to https://github.com/BawerMY/quick-translate/tree/main/exe/
 * Download the prefered version (console-background)
 ### quick-translate(console):
+* Run quick-translate(console).exe (if the console remains blank press enter on the keyboard)
+* Choose the output language:
+```
+Enter quick-translate output language(acronym)(default en):
+```
+* Choose the keyboard shortcut:
+```
+Enter quick-translate shortcut key(default q):
+```
+The shortcut will be Ctrl+&lt;choosen key&gt;
 
-## Getting Started
+Now you can translate text by selecting and press Ctrl+&lt;choosen key&gt;
+
+### Run quick-translate(background).exe
+* Download or create quick-translate(background).config.json
+* edit "lang" and "key" fields by your preferences:
+* "lang": output languages acronym(default "en")
+* "key": translate shortcut key(the shortcut will be Ctrl+&lt;choosen key&gt)(default "q")
+```json
+{
+  "lang": "en",
+  "key": "q"
+}
+```
+
+
+## Run Python
 ### Download & Install
 * Clone this repository
 ```sh
