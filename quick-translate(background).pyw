@@ -6,7 +6,7 @@ import json
 import pyautogui
 
 try:
-    f = open("config.json", "r")
+    f = open("quick-translate(background).json", "r")
     data = json.load(f)
 except:
     data = {
