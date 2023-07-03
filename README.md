@@ -33,13 +33,14 @@ Now you can translate text by selecting and press Ctrl+&lt;choosen key&gt;
   "key": "q"
 }
 ```
+ Run quick-translate(background).exe
+Now you can translate text by selecting and press Ctrl+&lt;choosen key&gt;
 
-
-## Run Python
+## Run With Python
 ### Download & Install
 * Clone this repository
 ```sh
-git clone https://github.com/BawerMY/quick-translate
+git clone https://github.com/BawerMY/quick-translate/
 ```
 * Enter in the project directory
 ```sh
@@ -49,22 +50,36 @@ cd quick-translate
 ```sh
 pip install -r requirements.txt
 ```
-### Configuration-Settings
-Default settings:
-* Output Language: English
-* Run Shortcut: Ctrl+Q
-* For change the settings open the config.json file in the project directory
-it should be like:
+
+### Setup & Run
+#### Activate quick-translate
+* Select the prefered version (console-background):
+##### quick-translte(console).py
+* Run quick-translate(console).py (if the console remains blank press enter on the keyboard)
+* Choose the output language:
+```
+Enter quick-translate output language(acronym)(default en):
+```
+* Choose the keyboard shortcut:
+```
+Enter quick-translate shortcut key(default q):
+```
+The shortcut will be Ctrl+&lt;choosen key&gt;
+
+
+
+##### quick-translate(background).pyw
+* Edit quick-translate(background).config.json
+* edit "lang" and "key" fields by your preferences:
+* "lang": output languages acronym(default "en")
+* "key": translate shortcut key(the shortcut will be Ctrl+&lt;choosen key&gt)(default "q")
 ```json
 {
-    "lang": "en",
-    "key": "q"
+  "lang": "en",
+  "key": "q"
 }
 ```
-* For change the output language edit the "lang" item to the acronym of the language desired(default = "en": English)
-* For change the shortcut key change the "key" item to the key desired(the shortcut will be Ctrl+&lt;choosen key&gt;)(default = "q": Q)
-### Run
-#### Activate quick-translate
+* Run quick-translate(background).pyw
 * Windows
 ```sh
 python quick-translate(background).pyw
