@@ -1,4 +1,4 @@
-# Quick Translate(v1.0)
+# Quick Translate(v0.2)
 ### About The Project
 A python app that translates texts by opening popups
 ### Built with
